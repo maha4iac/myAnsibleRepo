@@ -1,0 +1,25 @@
+---
+studentDeatils: 
+    - name: salma
+      phone: 8484848484
+      course:  devops
+      address: 
+        - doorno: 267
+          Street:  1st
+          pin: 500072
+
+    - name: sasank
+      phone: 8989898989
+      course: devops
+      address: 
+        - doorno: 268
+          Street:  1st
+          pin: 500072
+
+    - name: srinivas
+      phone: 8585858585
+      course: devops
+      address: 
+        - doorno: 269
+          Street:  1st
+          pin: 500072
