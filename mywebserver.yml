@@ -7,6 +7,6 @@
      name: apache2
      state: present
   - name: i want to start my  webserver services
-    services:
+    service:
       name: apache2
       state: started
