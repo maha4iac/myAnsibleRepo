@@ -6,7 +6,7 @@
   - name: i want to install webserver on ubuntu16
     apt:
      name: apache2
-     state: absent
+     state: present
   - name: i want to start my  webserver services
     service:
       name: apache2
