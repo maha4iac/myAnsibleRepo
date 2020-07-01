@@ -6,4 +6,7 @@
     yum:
       name: git
       state: present
-  
+  - name: i want to install webserver on redat
+    yum:
+      name: httpd
+      state: present
