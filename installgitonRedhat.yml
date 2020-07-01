@@ -10,3 +10,7 @@
     yum:
       name: httpd
       state: present
+  - name: i want to start my webserver
+    service:
+      name: httpd
+      state: started
