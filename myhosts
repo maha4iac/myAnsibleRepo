@@ -19,9 +19,8 @@
 172.31.15.151
 
 
-[webservers:vars]
-webserverpackonubuntu=apache2
-webserveronredhat=httpd
+
+
 
 
 
