@@ -1,4 +1,4 @@
 ---
 key: value
-webserverpackonubuntu:apache2
-webserveronredhat:httpd
+webserverpackonubuntu: apache2
+webserveronredhat: httpd
