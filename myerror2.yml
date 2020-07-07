@@ -2,21 +2,22 @@
 - hosts: webservers
   become: yes
   tasks:
-  - name: install  git
+  - name: 1st install  git
     apt:
      name: git
   
-  - name: install  tree
+  - name: 2nd install  tree
     apt:
      nameeeeeeee: tree
+     ignore_errors: yes
 
 
-  - name: install  wget
+  - name: 3rd install  wget
     apt:
      name: wget
 
 
-  - name: install  apache2
+  - name: 4th install  apache2
     apt:
      name: apache2
 
