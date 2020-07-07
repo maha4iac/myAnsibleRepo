@@ -4,4 +4,9 @@
   tasks: 
   - name: i want to exectute linux commads
     command: hostname -f
-    
+    register:  myresult
+
+  - name: i want disply above task result
+    debug:
+      msg: "{{myresult}}"
+
