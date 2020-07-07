@@ -12,3 +12,8 @@
   - name: i want to disply mykey2
     debug:
       msg: "{{mykey2}}"
+  - name: i want disply os
+    debug:
+      msg: "{{ansible_os_family}}"
+
+  
