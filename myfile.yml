@@ -1,5 +1,6 @@
 ---
-fruits:
-  - apple
-  - orange
-  - mango
+- hosts: webservers
+  become: yes
+  tasks: 
+  - name : i want to include playbook
+    include:  myfilecreate.yml
