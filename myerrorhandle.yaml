@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: webservers,
   become: yes
   tasks: 
   - name: i want to exectute linux commads
