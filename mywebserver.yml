@@ -8,7 +8,7 @@
      name: apache2
      state: present
     notify: startwebserver
-  when: ansible_os_family =="Debian"
+    when: ansible_os_family =="Debian"
 
   
 
