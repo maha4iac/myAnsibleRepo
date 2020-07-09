@@ -1,2 +1,6 @@
 ---
 # tasks file for myrole
+- name: i want to install tree
+  apt:
+   name: tree
+   state: present
