@@ -6,7 +6,7 @@
     daemon_reload: yes
 
 
-- name: mu tom start
+- name: my tom start
   systemd:
     name: tomcat
     state: started
