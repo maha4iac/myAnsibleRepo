@@ -16,7 +16,7 @@
     recurse: yes
 
 - name: change mode on config
-   file:
+  file:
     path:  /opt/tomcat/conf
     state: directory
     mode: g+x
