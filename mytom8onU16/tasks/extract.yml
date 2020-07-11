@@ -9,5 +9,6 @@
 - name: i want to extract tar file
   unarchive:
     src: /home/ubuntu/apache-tomcat-8.5.5.tar.gz
-    creates: /opt/tomcat/
+    dest: /opt/tomcat/
     remote_src: yes
+    copy: no
