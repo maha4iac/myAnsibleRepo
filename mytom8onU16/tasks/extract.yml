@@ -1,0 +1,12 @@
+---
+
+- name: create folder
+    file:
+    path: /opt/tomcat
+    state: directory
+    mode: '0755'
+
+- name: i want to extract tar file
+  unarchive:
+    src: /home/ubuntu/apache-tomcat-8.5.5.tar.gz
+    dest: /opt/tomcat

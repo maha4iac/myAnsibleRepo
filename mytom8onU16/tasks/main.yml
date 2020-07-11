@@ -1,2 +1,9 @@
 ---
 # tasks file for mytom8onU16
+- include: myjavainstall.yml 
+- include: mytomcatusergrp.yml
+- include: download.yml
+- include: extract.yml
+- include: Permissions.yml
+- include: mytomconfig.yml
+- include: mytomstart.yml
