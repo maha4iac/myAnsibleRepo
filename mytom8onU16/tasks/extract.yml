@@ -1,7 +1,7 @@
 ---
 
 - name: create folder
-    file:
+  file:
     path: /opt/tomcat
     state: directory
     mode: '0755'
