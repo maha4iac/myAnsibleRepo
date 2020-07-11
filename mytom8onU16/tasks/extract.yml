@@ -10,4 +10,4 @@
   unarchive:
     src: /home/ubuntu/apache-tomcat-8.5.5.tar.gz
     dest: /opt/tomcat/
-    copy: no
+    extra_opts: [--strip-components=1]
