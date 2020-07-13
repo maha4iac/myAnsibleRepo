@@ -1,0 +1,6 @@
+---
+- name: deploy my java application on my tomcat8 server(all nodes side)
+  get_url:
+    url: https://mahadevops.s3-us-west-2.amazonaws.com/mahaLogin.war
+    dest: /opt/tomcat/webapps/mahaLogin.war
+    force_basic_auth: yes
